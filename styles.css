@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  background-color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  margin-top: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: #eee;
+  text-shadow: 2px;
+  opacity: 0.5;
+}
+
+h1 strong:hover {
+  text-decoration: line-through;
+  font-size: 50px;
+}
+
+.cena {
+  width: 100%;
+  height: 100%;
+  perspective: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cubo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rodaroda 5s infinite alternate;
+  background: blue;
+
+}
+
+@keyframes rodaroda {
+  0% {transform: rotateY(0deg) rotateX(0deg);}
+  100% {transform: rotateY(720deg) rotateX(30deg);}
+
+}
+
+.face_cubo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.face_cubo--left {
+  background-color: gold;
+    transform: translateX(-100px) rotateY(90deg);
+}
+
+.face_cubo--right {
+  background-color: gold;
+  transform: translateX(100px) rotateY(90deg);
+}
+.face_cubo--bottom {
+  background-color: gold;
+  transform: translateY(100px) rotateX(90deg);
+}
+.face_cubo--top {
+  background-color: green;
+  transform: translateY(-100px) rotateX(90deg);
+}
+
+.face_cubo--back {
+  background-color: blue;
+  transform: translateZ(-100px);
+}
+
+.face_cubo--front {
+  background-color: green;
+  transform: translateZ(100px);
+}
