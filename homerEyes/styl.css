@@ -1,0 +1,313 @@
+html , body{
+  background-color: rgba(215, 255, 44, 0.9);
+  font-family: 'Sedgwick Ave Display', cursive;
+  
+}
+
+.titleCenter {
+    position: absolute;
+    left: 375px;
+    top: -50px;
+    font-size: 120px;
+}
+
+.center{
+    position: absolute;
+    left: 90px;
+    right: 0px;
+    bottom: 0px;
+    top: 200px;
+    margin: auto;
+    max-width:350px;
+    max-height:390px;
+}
+
+.head {
+    position: relative;
+    left: 80px;
+}
+
+.hair {
+    position:absolute;
+}
+
+.cabelo1, .cabelo2 {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  border-top: 2px solid black;
+  transform: rotate(-40deg)
+
+}
+
+.cabelo1 {
+  top: 15px;
+}
+
+.cabelo2 {
+  transform: rotate(-30deg);
+  left: 10px;
+}
+
+.cabeça {
+  position: absolute;
+  top: 10px;
+  width: 170px;
+  height:200px;
+  border-radius: 60%/50%;
+  transform: rotate(-18deg);
+  background-color: rgb(255,217,14);
+  border: 3px solid black;
+
+}
+
+.olhos {
+  position: absolute;
+  top: 110px;
+  left: 60px;
+
+}
+
+.olho-esquerdo{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: 2px solid black;
+
+}
+
+.pupila{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: black;
+
+
+}
+
+.pupila1 {
+  left: 25px;
+  top: 40px;
+  animation: homerDoido infinite alternate 2s;
+
+}
+
+.pupila2 {
+  margin-left: 25px;
+  margin-top: 40px;
+  animation: homerDoido infinite alternate 2s;
+  
+
+}
+
+.olho-direito {
+  position: absolute;
+  left: 60px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+
+}
+
+.nariz {
+  position: absolute;
+  width: 60px;
+  height: 32px;
+  background-color: rgb(255, 217, 14);
+  top: 175px;
+  left: 130px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.boca {
+  position: absolute;
+  width: 115px;
+  height: 120px;
+  border-radius: 50%;
+  background-color:rgb(205, 177, 111);
+  top: 207px;
+  left: 60px;
+  border-left: 3px solid black;
+
+}
+
+.face-cache1 {
+  top:185px;
+  left: 30px;
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  background-color: rgb(255, 217, 14);
+}
+
+.face-cache2 {
+  top: 165px;
+  left: 22px;
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background-color: rgb(255,217,14);
+  transform: rotate(-11deg);
+  border-left: 2px solid black;  
+}
+
+.boca-cache1 {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  background-color: rgb(205, 177, 111);
+  border-radius: 60%;
+  border-bottom: 2px solid black;
+  top: 20px;
+  left: 30px;
+  transform: rotate(-6deg);
+}
+
+.boca-cache2 {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  border-right: 2px solid black;
+  left: 130px;
+  top: 200px;
+  background-color: rgb(205, 177, 111);
+  border-top-right-radius: 70%;
+}
+
+.boca-cache3 {
+  position:absolute;
+  width: 35px;
+  height: 48px;
+  background-color: rgb(205, 177, 111);
+  border-radius: 30%/10%;
+  top: 230px;
+  left: 165px;
+  transform: rotate(-140deg);
+  border-bottom: 2px solid black;
+}
+
+.boca-cache4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  background-color: rgb(205, 177, 111);
+  top: 260px;
+  left: 80px;
+}
+
+.boca-cache5 {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background-color: rgb(205, 177, 111);
+  top: 62px;
+  left: 98px;
+  border-radius: 50%;
+  transform: rotate(15deg);
+
+}
+
+.orelha {
+  position: absolute;
+  width: 32px;
+  height: 37px;
+  top: 200px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 217, 14);
+  transform: rotate(10deg);
+  border: 2px solid black;
+
+}
+
+.face-cache3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: 210px;
+  left: 30px;
+  background-color: rgb(255, 217, 14)
+}
+
+.cabelo3 {
+  position: absolute;
+  top: 180px;
+  left: -20px;
+}
+
+.cabelo4 {
+  position: absolute;
+  top: 175px;
+  left: 0px;
+}
+
+.traço1 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  left: 0px;
+  top: 2px;
+  transform: rotate(-90deg);
+  background-color:black;
+}
+
+.traço2 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  left: 10px;
+  transform: rotate(-115deg);
+  background-color: black;
+}
+
+.pescoço {
+  position: absolute;
+  width: 125px;
+  height: 150px;
+  background-color:red;
+  top: 200px;
+  left: 28px;
+  transform: rotate(2deg);
+  background-color: rgb(255,217,14);
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+
+}
+
+.orelha-detalhe {
+  position: absolute;
+  left: 12px;
+  bottom: 8px;
+  width: 10px;
+  height: 10px;
+  
+}
+.orelha-detalhe2 {
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border: 2px solid black;
+
+}
+
+@keyframes homerDoido {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
